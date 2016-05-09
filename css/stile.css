@@ -1,3 +1,37 @@
+.bg{
+
+    background: #660066;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+
+@-webkit-keyframes mymove {
+    50% {background-color: blue;}
+}
+
+
+}
+
+/*#column .subtitle{
+	
+	display: inline;
+	position: absolute;
+	min-width: 30%;
+	margin-right: 10%;
+	right: 0px;
+}
+
+
+#column .pic{
+	
+	display: inline;
+	position: absolute;
+	width: 30%
+	height:auto;
+	min-width: 30%
+}
+
 .bluebg {
 	background-color: #3366FF;
 	width: auto;
@@ -5,29 +39,57 @@
 
 }
 
-.slider {
+.purplebg {
+	background-color: #6600CC;
+	width: auto;
+	height: 250px;
 
 }
+.greenbg {
+	background-color: #66CC99;
+	width: : auto;
+	height: 250px;
 
+}
+.space{
+	height: 10%;
+	max-height: 35px;
+}*/
 .icons{
-	width: 15%;
-	max-width: 50px;
-	margin-top: 3%;
-}
-
-.subtitle {
+	width: 100%;
+	height: auto;
 	
-	margin-left: 12%;
-
+	margin: auto;
+	
 }
 
-.maintitle {
+.title{
 	color: white;
 	text-align: center;
 	line-height: 250px;
-	font-family: Helvetica, Sans-Serif;
-	font-size: 50px;
-	font-weight: bold;
+
+}
+.subtitle {
+	font-family: Lucida Console, Monospace;
+	border: #33FF33;
+	margin-left: 5%;
+	font-size: 60px;
+	
+	
+
+
+}
+
+
+
+#paragraph{
+	font-size: 45px;
+}
+
+.maintitle {
+	
+	font-family: Courier New, Monospace;
+	font-size: 65px;
 	position: relative;
 	
 }
