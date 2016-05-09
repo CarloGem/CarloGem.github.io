@@ -1,0 +1,33 @@
+.bluebg {
+	background-color: #3366FF;
+	width: auto;
+	height: 250px;
+
+}
+
+.slider {
+
+}
+
+.icons{
+	width: 15%;
+	max-width: 50px;
+	margin-top: 3%;
+}
+
+.subtitle {
+	
+	margin-left: 12%;
+
+}
+
+.maintitle {
+	color: white;
+	text-align: center;
+	line-height: 250px;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 50px;
+	font-weight: bold;
+	position: relative;
+	
+}
